@@ -1,0 +1,13 @@
+header {
+    background-color: rgb(130, 243, 181);
+    color: rgb(11, 70, 36);
+}
+section{
+    background-color: rgb(58, 6, 17);
+    color:darkmagenta
+
+}
+footer{
+    background-color:coral;
+    color: black;
+}

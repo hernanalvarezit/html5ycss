@@ -1,0 +1,68 @@
+
+body, section{
+    font-family: Verdana;
+    margin: 0;
+}
+
+/*A los links los quiero sin subrayado,  negro, separdos de otros elementos por 10pix*/
+a{
+    text-decoration: none;
+    color:black;
+    padding: 10px;
+}
+
+/*Le doy el mismo estilo a los parametros "p"*/
+p{
+    color: rgb(247, 35, 35);
+    margin: 0;
+    padding: 5px;
+    } 
+
+/*Le digo que a esta clase(foto redondeada), la reduzca a un 10 % de su tamaño, la haga redonda y la situe a la izquierda*/
+.portada{
+    width: 10%;
+    border-radius: 60%;
+    float: left;
+}
+
+/* El titulo en color lilita*/
+.titulo{
+    color: blueviolet;
+}
+
+/*Color de letra y fondo al texto en el header*/
+header{
+    background-color: rgb(176, 193, 238);
+}
+
+/*Color de letra y fondo al texto en el section*/
+section{
+    background-color: rgb(126, 219, 162);
+    color:blueviolet;
+}
+
+.lasclases{
+    background-color: aqua;
+    display: flex ; /* Usamos flexbox para controlar la disposición*/
+}
+
+/*Formateo imagen central del sitio*/
+.img{
+    display: flex;
+    width: 89%;
+    height: 89%;
+    border-radius: 60%;
+    /*justify-content: center; /* Centra verticalmente los elementos*/
+}
+
+/*Formateo del pie de pagina*/
+.textoI {
+    color: blueviolet;
+    display: flex ; /* Usamos flexbox para controlar la disposición*/
+    justify-content: end; /* Centra verticalmente los elementos*/
+    margin-right: 87px; /* Añade un espacio entre el texto y la imagen*/
+}
+
+.sociales{
+    float: right;
+}

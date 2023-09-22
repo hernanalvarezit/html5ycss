@@ -1,0 +1,39 @@
+body{
+    background-color: black;
+    display: flex;
+    justify-content:space-between;
+}
+
+.uno{
+    background-color: aqua;    
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: start;
+}
+
+.dos{
+    background-color:chartreuse;    
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content:center;
+}
+
+.tres{
+    background-color:crimson;    
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content:end;
+}
+    
+.cuatro{
+    color: red;
+    background-color:white;    
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content:center;
+}
+

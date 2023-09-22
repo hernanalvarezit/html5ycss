@@ -1,0 +1,41 @@
+body{
+    color: black;
+    background-color: black;
+    margin:50px;
+}
+
+.abuelo{
+    background-color: red;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.padre{
+    background-color:aquamarine ;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hijo{
+    background-color: blueviolet;
+    height: 220px;
+    width: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nieto{
+    background-color: darkgoldenrod;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+}

@@ -1,0 +1,40 @@
+header {
+    color: rgb(241, 22, 22);
+}
+section h3 {
+    color: blue;
+    background-color: antiquewhite;
+    border-color: blueviolet;
+}
+section h2{
+    color: brown;
+}
+
+.subtitulosD{
+    color:beige;
+    background-color: black;
+}
+
+.subtitulos{
+    color: chartreuse;
+}
+
+div p{
+    background-color:aquamarine;
+    color:#ffffff;
+    text-decoration:none;
+}
+
+
+div a{
+    background-color:#009cde;
+    color:#ffffff;
+    text-decoration:double;
+}
+
+div .padre{
+    background-color:#0f5e80;
+}
+
+#abuelo{ border-color:black; }
+

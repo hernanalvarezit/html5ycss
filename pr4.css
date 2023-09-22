@@ -1,0 +1,112 @@
+body{
+    font-family: Verdana;
+    margin: 0;
+    color: rgb(141, 92, 187);
+}
+
+/*aplico flex y espacio entre contenidos, color de fondo y separacion de contenido con al */
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(176, 193, 238);
+    align-items: center;
+    padding: 10px;
+}
+/*Aca indico a mi foto que pueda ubicarse en centro*/
+.logo{
+    display: flex; 
+    align-items: center;
+}
+
+
+/*Formateo mi imagen*/
+.logo img{
+    display: flex;
+    width: 10%;
+    border-radius: 75%;
+    margin: 10px;
+    align-items: center;
+    margin-right: 10px;
+}
+
+/* Formateo el texto al lado de la imagen*/
+.logo h1{
+    display: flex;
+    font-family: Verdana;
+    /*color: rgb(141, 92, 187);*/
+    color: rgb(106, 49, 160);
+    align-items: center;
+    margin-left: 10px;
+}
+/*Le saco a todos los links el subrayado*/
+a{
+    text-decoration: none;
+    color: rgb(106, 49, 160);
+    margin-left: 10px;
+}
+/*Hago la fuente mas ancha y los separo*/
+nav{
+    display: flex;
+    align-items: right;
+    gap: 10px;
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 10 px;
+}
+/*Cambio de color el link al pasar encima*/
+nav a:hover{
+    color: white;
+}
+
+/*Estilizo mis textos*/
+.completo{
+    margin: 10px;
+}
+.completo h2{
+    color: rgb(141, 92, 187);
+}
+
+.completo h2:hover{
+    color: black;
+}
+
+.completo h3{
+    color: rgb(141, 92, 187);
+}
+
+.completo h4{
+    color: rgb(141, 92, 187);
+}
+
+
+.linea{
+    color: rgb(141, 92, 187);
+    margin: 10px;
+}
+/*
+.experie lu{
+    display: flex;
+    align-items: center;
+    margin: 75px;
+}*/
+
+.habil{
+    margin: 10px;
+}
+.habil h2:hover{
+    color: black;
+}
+
+
+.sociales{
+    float: right;
+}
+
+
+@media (max-width:700px){
+    header{
+        flex-direction: column;
+    }
+}

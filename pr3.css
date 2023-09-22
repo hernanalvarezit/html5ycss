@@ -1,0 +1,66 @@
+body{
+    color: blueviolet;
+    background-color: rgb(219, 190, 190);
+}
+
+
+
+.left{
+    color:red;
+    display: flex;
+    float: center;
+    justify-content:center
+}
+
+.padre{
+    /*color:chartreuse;*/
+    background-color:yellow;    
+    height: 40px;/*alto*/
+    width:100%;/*ancho*/
+    display: flex;
+    justify-content:center;
+    gap: 10px;
+
+}
+.padrino{
+    color:black;
+}
+
+.hijo:hover{
+    color: white;
+    background-color:green;    
+    height: 45px;
+    width: 150px;
+    border: gray 3px solid;
+    display: flex;
+    justify-content:right;
+    /*float: right; /* Coloca los elementos a la derecha 
+    margin-right: 10px; /* Añade un margen de 10 píxeles entre los elementos */
+    gap: 50px;
+}
+
+.abuelo:hover{
+    color: white;
+    background-color:rgb(243, 243, 8);    
+    height: 45px;
+    width: 150px;
+    border: gray 3px solid;
+    display: flex;
+    justify-content:center;
+    /*float: right; /* Coloca los elementos a la derecha */
+    margin-right: 10px; /* Añade un margen de 10 píxeles entre los elementos */
+    gap: 50px;
+}
+
+.nieto:hover{
+    color: white;
+    background-color:red;    
+    height: 45px;
+    width: 150px;
+    border: gray 3px solid;
+    display: flex;
+    justify-content:center;
+    /*float: right; /* Coloca los elementos a la derecha */
+    margin-right: 10px; /* Añade un margen de 10 píxeles entre los elementos */
+    gap: 50px;
+}
